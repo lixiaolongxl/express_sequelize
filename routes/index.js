@@ -5,6 +5,8 @@ const qiniu = require("qiniu");
 var config = new qiniu.conf.Config();
 // 空间对应的机房
 config.zone = qiniu.zone.Zone_z0;
+
+
 /* GET home page. */
 router.get('/index', function (req, res, next) {
 	// res.render('index', { title: 'ExpressTest' });
